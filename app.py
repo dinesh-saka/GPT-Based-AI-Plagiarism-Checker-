@@ -8,7 +8,7 @@ import plotly.express as px
 from collections import Counter
 from nltk.corpus import stopwords
 import string
-
+import os
 # Set a custom NLTK data directory
 nltk_data_path = "./nltk_data"
 os.makedirs(nltk_data_path, exist_ok=True)
